@@ -1,18 +1,18 @@
+<script setup>
+import Sidebar from './components/Sidebar.vue'
+</script>
+
 <template>
     <head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     </head>
-  <div>
-    <div class="app">
-        <Sidebar />
-        <router-view />
+    <div>
+        <div class="app">
+            <Sidebar />
+            <router-view />
+        </div>
     </div>
-  </div>
 </template>
-
-<script setup>
-import Sidebar from './components/Sidebar.vue'
-</script>
 
 <style lang="scss">
 :root {
